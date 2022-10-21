@@ -22,6 +22,6 @@ ES6에서 새로 등장한 키워드인 let과 const로 선언된 변수는 블�
 
 ## 꼬리질문
 
-- [스코프 체인이란 무엇인가요?](./scopeChain.md)
-- [TDZ에 대해 설명해주세요.](./tdz.md)
-- [var, let, const 키워드의 차이점에 대해 설명해주세요](./keyword.md)
+- [스코프 체인이란 무엇인가요?](./scopeChain.md)
+- [TDZ에 대해 설명해주세요.](./tdz.md)
+- [var, let, const 키워드의 차이점에 대해 설명해주세요](./keyword.md)
