@@ -5,7 +5,7 @@ interface Props {
   children: React.ReactNode;
 }
 
-export const ServiceLayout = function ({
+function ServiceLayout({
   title = 'Frontend Tech Interview Prep',
   children,
 }: Props) {
@@ -17,4 +17,6 @@ export const ServiceLayout = function ({
       {children}
     </div>
   );
-};
+}
+
+export default ServiceLayout;

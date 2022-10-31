@@ -1,4 +1,4 @@
-import { ServiceLayout } from '@/components/service_layout';
+import ServiceLayout from '@/components/service_layout';
 import { NextPage } from 'next';
 
 const IndexPage: NextPage = () => (
