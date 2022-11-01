@@ -1,7 +1,8 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   reactStrictMode: true,
-  swcMinify: true,
-}
-
-module.exports = nextConfig
+  publicRuntimeConfig: {
+    apiKey: process.env.publicApiKey || '',
+    authDomain: process.env.FIREBASE_AUTH_HOST || '',
+    projectId: process.env.projectId || '',
+  },
+};

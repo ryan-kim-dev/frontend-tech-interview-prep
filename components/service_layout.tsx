@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import Head from 'next/head'; // Head 내부에 들어가는 내용: html의 meta태그들
 
 interface Props {
   title: string;
